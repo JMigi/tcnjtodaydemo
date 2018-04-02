@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $(".bar2").hide();
+            $(".bar1").hover(function(){
+                $(".bar2").toggle();
+            });
+            $(".bar2").hover(function(){
+            $(".bar2").toggle();
+            });
+        });
+</script>
+    <title>TCNJ Today-ish
+    </title>
+    <style>
+
+    header
+        {
+            margin: auto;
+            background-color: darkblue;
+            padding: 20px;
+            width: 100%;
+            color: white;
+            text-align:left;
+        }
+    nav
+        {
+            margin: auto;
+            background-color: gold;
+            padding: 20px;
+            width: 100%;
+            color: darkblue;
+            text-align:left;
+        }
+    .bar1
+        {
+            margin: auto;
+            background-color: gainsboro;
+            padding: 20px;
+            width: 100%;
+            color: dimgray;
+            text-align:left;
+        }
+            .bar2
+        {
+            margin: auto;
+            background-color: gainsboro;
+            padding: 20px;
+            width: 100%;
+            color: dimgray;
+            text-align:left;
+        }
+    .floating-box 
+        {
+            display: inline-block;
+            width: 20%;
+            height: 123px;
+            margin: 2%;
+            border: 2px solid darkgray;  
+        }
+    footer
+        {
+            margin: auto;
+            background-color: darkblue;
+            padding: 20px;
+            width: 100%;
+            color: white;
+            text-align:left;
+            position: fixed;
+            bottom: 0;
+        }
+    </style>
+    </head>
+<body>
+    <header>
+        <img src="images/download.jpg" alt="logo" style="width:200px;height:64px;">
+        This is the header
+    </header>
+    <br>
+    <nav>
+        This is the nav
+    </nav>
+    <h1>
+        TCNJ Today
+    </h1>
+    <div class="bar1">
+        This is a bar to navigate the site
+    </div>
+    <div class="bar2">
+        This is more options from hovering over bar1
+    </div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    <div class="floating-box">Social Media Content</div>
+    </body>
+    <footer>
+        This is the footer
+    </footer>
+</html>
