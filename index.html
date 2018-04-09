@@ -20,11 +20,18 @@
     header
         {
             margin: auto;
-            background-color: darkblue;
+            background-color: #293f6f;
             padding: 20px;
             width: 100%;
             color: white;
             text-align:left;
+        }
+    header.top
+        {
+            text-align: right;
+            font-family: Open Sans;
+            position: relative;
+            right: 50px;
         }
     nav
         {
@@ -34,6 +41,8 @@
             width: 100%;
             color: darkblue;
             text-align:left;
+            font-family: Open Sans;
+            text-align: center;
         }
     .bar1
         {
@@ -43,8 +52,9 @@
             width: 100%;
             color: dimgray;
             text-align:left;
+            font-family: Open Sans;
         }
-            .bar2
+    .bar2
         {
             margin: auto;
             background-color: gainsboro;
@@ -52,6 +62,7 @@
             width: 100%;
             color: dimgray;
             text-align:left;
+            font-family: Open Sans;
         }
     .floating-box 
         {
@@ -60,34 +71,57 @@
             height: 123px;
             margin: 2%;
             border: 2px solid darkgray;  
+            font-family: Open Sans;
         }
     footer
         {
             margin: auto;
-            background-color: darkblue;
+            background-color: #293f6f;
             padding: 20px;
             width: 100%;
             color: white;
             text-align:left;
-            position: fixed;
-            bottom: 0;
+            font-family: Open Sans;
+        }
+        h1
+        {
+            font-family: EB Garamond;
         }
     </style>
     </head>
 <body>
     <header>
-        <img src="images/download.jpg" alt="logo" style="width:200px;height:64px;">
-        This is the header
+        <img src="images/download.jpg" alt="logo" style="width:200px;height:100px;">
+        <header class="top">
+        APPLY VISIT GIVE | ALUMNI PARENTS OFFICES TCNJ TODAY     
+        </header>
     </header>
     <br>
     <nav>
-        This is the nav
+        <a href= "http://mail.tcnj.edu/"><img src="images/gapps.png" alt="google apps"></a>
+        <a href= "https://tcnj.instructure.com/login"><img src="images/canvas.png" alt="canvas"></a>
+        <img src="images/yess.png" alt="yess">
+        <img src="images/paws.png" alt="paws">
+        <img src="images/account.png" alt="account">
     </nav>
     <h1>
         TCNJ Today
     </h1>
     <div class="bar1">
-        This is a bar to navigate the site
+        <table style= "width:100%">
+    <tr>
+        <th>HOME</th>
+        <th>ABOUT</th> 
+        <th>ACADEMICS</th>
+        <th>ADMISSIONSv</th>
+        <th>ATHLETICS</th>
+        <th>CAMPUS LIFEv</th>
+        <th>LIBRARY</th>
+        <th>RESOURCESv</th>
+        <th>EVENTSv</th>
+     </tr>
+        </table>
+
     </div>
     <div class="bar2">
         This is more options from hovering over bar1
@@ -101,7 +135,29 @@
     <div class="floating-box">Social Media Content</div>
     <div class="floating-box">Social Media Content</div>
     </body>
-    <footer>
-        This is the footer
+    <footer style ="text-align:center">
+        <img src="images/download.jpg" alt="logo" style="width:200px;height:100px;">
+        <table style= "width:100%">
+    <tr style="color: #4a85b9">
+        <th>CAMPUS</th>
+        <th>PROGRAMS</th> 
+        <th>SCHOOLS</th>
+     </tr>
+        <tr>
+            <td>Bookstore</td>
+            <td>List of Majors</td>
+            <td>Arts & Communications</td>
+        </tr>
+            <tr>
+                <td>Calendars</td>
+                <td>Undergraduate Degrees</td>
+                <td>Business</td>
+            </tr>
+            <tr>
+                <td>Campus Map</td>
+                <td>Graduate Degrees</td>
+                <td>Education</td>
+            </tr>
+        </table>
+        
     </footer>
-</html>
